@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body {
+  background-color: lightblue;
+  padding-bottom: 50px;
+}
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightpink;
+    height: 25px;
+    border-collapse: collapse;
+  }
+
+  td:not(.time) {
+    width: 10%;
+  }
+
+  .time {
+    width: 5%;
+  }
+
+  #bd {
+    font-weight: bold;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  a:link,
+  a:visited,
+  a:active,
+  a:link {
+    color: black;
+  }
+
+  a:hover {
+    color: gray;
+  }
+
+  div{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  #header{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  img{
+    width: 300px;
+    height: auto;
+  }
+
+  .noth{
+    font-size: 20px;
+  }
+
+  iframe{
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+  }
+
+</style>
+
+<head>
+  <title>TGI1</title>
+</head>
+
+<body>
+  <div>
+    <h1 id="header">Stundenplan TGI1</h1>
+    <br>
+    <a href="https://www.zgb-buchen.de/" target="_blank"><img src="bilder/ZGB-Logo.png"></a>
+    <br>
+    <br>
+    <br>
+    <table style="width:100%">
+      <tr id="bd">
+        <!--<td class="time"><a href="zeiten.html" target="_blank">Time</a></td>-->
+        <td class="time"><a href="zeiten.html">Time</a></td> <!--style="text-decoration:none"-->
+        <td>Montag</td>
+        <td>Dienstag</td>
+        <td>Mittwoch</td>
+        <td>Donnerstag</td>
+        <td>Freitag</td>
+      </tr>
+      <tr>
+        <td class="time" rowspan="2">8 <sup><u>00</u></sup><br>9 <sup><u>30</u></sup></td>
+        <td class="mathe">M</td>
+        <td class="physik">Ph</td>
+        <td class="infor">Inf</td>
+        <td class="reli">Reli</td>
+        <td class="mathe">M</td>
+      </tr>
+      <tr>
+        <td class="mathe">M</td>
+        <td class="physik">Ph</td>
+        <td class="infor">Inf</td>
+        <td class="reli">Reli</td>
+        <td class="mathe">M</td>
+      </tr>
+      <tr>
+        <td class="time" rowspan="2">9 <sup><u>50</u></sup><br>11 <sup><u>20</u></sup></td>
+        <td class="infor">Inf</td>
+        <td class="noth">-</td>
+        <td class="deutsch">D</td>
+        <td class="sport">Spo</td>
+        <td class="wirtschaft">W</td>
+      </tr>
+      <tr>
+        <td class="infor">Inf</td>
+        <td class="noth">-</td>
+        <td class="deutsch">D</td>
+        <td class="sport">Spo</td>
+        <td class="wirtschaft">W</td>
+      </tr>
+      <tr>
+        <td class="time" rowspan="2">11 <sup><u>25</u></sup><br>12 <sup><u>55</u></sup></td>
+        <td class="infor">Inf</td>
+        <td class="englisch">E</td>
+        <td class="ggk">GGK</td>
+        <td class="englisch">E</td>
+        <td class="sgt">SGT</td>
+      </tr>
+      <tr>
+        <td class="infor">Inf</td>
+        <td class="englisch">E</td>
+        <td class="ggk">GGK</td>
+        <td class="englisch">E</td>
+        <td class="sgt">SGT</td>
+      </tr>
+      <tr>
+        <td class="time">13 <sup><u>00</u></sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13 <sup><u>45</u></sup></td>
+        <td></td>
+        <td class="noth">-</td>
+        <td class="noth">-</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="time" rowspan="2">13 <sup><u>45</u></sup><br>15 <sup><u>15 </u></sup></td>
+        <td></td>
+        <td class="infor">Inf</td>
+        <td class="chemie">Ch</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="infor">Inf</td>
+        <td class="chemie">Ch</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <!--<iframe src="https://www.zgb-buchen.de/"></iframe>-->
+
+  </div>
+
+
+</body>
+
+</html>
